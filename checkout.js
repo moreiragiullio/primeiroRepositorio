@@ -38,6 +38,7 @@ import {
   }
   
   desenharProdutosCheckout();
+atualizarPrecoCarrinho();
   
   document.addEventListener("submit", (evt) => finalizarCompra(evt));
   
